@@ -1,0 +1,99 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cantarell', sans-serif;
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+
+#atf {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pamporovo.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*padding-bottom: 30vh;*/
+    /*border: 1px red solid;*/
+
+}
+
+#atf-header-content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: flex-start;
+    background-color: rgba(0,0,0,.71);
+    height: 2.4rem;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.c0 {
+    height: 2rem;
+    fill: blue;}
+
+.c0:hover {
+    fill: white;
+}
+
+#atf-text-content {
+    /*border: 1px red solid;*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    top: -10%;
+    /*height: 80%;*/
+}
+
+#atf > div {
+}
+
+header {
+    width: 100%;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+h3 {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+
+button {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.1);
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+button:hover {
+    background-color: rgba(255,255,255,.3);
+
+}
+
+li {
+    color: black;
+    font-size: 7rem;
+}

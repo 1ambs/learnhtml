@@ -1,0 +1,16 @@
+div {
+    width: 400px;
+    height: 200px;
+    border: 10px dashed #ff6917;
+    margin: 20px auto;
+    padding: 30px;
+
+}
+
+.one {
+    background-image: url("../005-hoe_flexbox/balls.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two {  box-sizing: border-box;}

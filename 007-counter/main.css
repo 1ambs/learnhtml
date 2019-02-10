@@ -1,0 +1,63 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 3vw;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /*font-size: 10rem;*/
+}
+
+#counter {
+    height: 3.8rem;
+    width: 9.2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: center;
+    /*align-items: stretch;*/
+}
+
+#counter-value {
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+#counter-control-l {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 1rem 0 0 1rem;
+    flex-flow: row nowrap;
+    cursor: pointer;
+}
+
+#counter-control-r {
+    background-color: gray;
+    border-radius: 0 1rem 1rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+
+#counter-control-l:hover , #counter-control-r:hover {
+    background-color: skyblue;
+}
