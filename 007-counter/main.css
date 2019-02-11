@@ -17,6 +17,13 @@ body {
     /*font-size: 10rem;*/
 }
 
+.trans {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+
 #counter {
     height: 3.8rem;
     width: 9.2rem;
