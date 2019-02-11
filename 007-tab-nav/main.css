@@ -1,0 +1,41 @@
+html, body, div, button {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-size: 5vw;
+    font-family: sans-serif;
+}
+
+#atf {
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+    border-bottom: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 50px 0;*/
+    width: 100%;
+}
+
+button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    justify-items: center;
+    background-color: transparent;
+    height: 100%;
+    width: 25%;
+    border-bottom: 2px solid transparent;
+}
+
+button:hover {
+    border-bottom: 2px solid deepskyblue;
+}
